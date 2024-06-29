@@ -1,24 +1,24 @@
 #include <stdio.h>
 
 int main() {
-  int x = 0;
+  int a = 0;
   int y = 1;
   int z = 2;
 
-  x = x + y;
-  x = y + x;
-  x = x + y;
-  x = y + x;
+  a = a + y;
+  a = y + a;
+  a = a + y;
+  a = y + a;
 
-  x = x + z;
-  z = y - x;
+  a = a + z;
+  z = y - a;
 
-  y = y + x + 5;
-  y = y + x + 5;
-  y = y + x + 5;
+  y = y + a + 5;
+  y = y + a + 5;
+  y = y + a + 5;
 
-  z = y - x;
+  z = y - a;
 
-  fprintf(stderr, "x = %d, y = %d\n", x, y);
+  fprintf(stderr, "a = %d, y = %d\n", a, y);
   
 }
