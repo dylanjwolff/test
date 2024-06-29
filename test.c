@@ -6,7 +6,7 @@ int main() {
   int z = 2;
 
   a = a + y;
-  a = y + a;
+  a = 4*y + a;
   a = a + y;
   a = y + a;
 
